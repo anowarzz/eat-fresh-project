@@ -2,12 +2,13 @@
 body{
 font-family: 'Montserrat', sans-serif;
 margin:0px;
+box-sizing: border-box;
 }
 h1{
     font-size: 50px;
 }
 h3{
-    font-size: 40px;
+    font-size: 30px;
 }
 .orange-color{
     color:orange;
@@ -36,14 +37,28 @@ font-weight: 700;
 .about-image{
 background-image:url(images/shapes/7.png);
 background-repeat: no-repeat;
-background-size: cover;
 }
 .flex-50 img{
-    width:40%;
-    height:100%;
-    padding-left: 150px;
+ width:40%;
+height:100%;
+padding-left: 150px;
+
 }
 .about-text{
-    padding-right:100px;
-    margin-left: 50px;
+margin-left:-180px;
+padding-right:60px;
+text-align:justify
+
+}
+.my-recipes{
+    text-align:center;
+    margin-top:-60px;
+}
+.bold{
+    font-weight:900;
+}
+#food-one{
+    border-radius:25px;
+    height:70%;
+
 }
