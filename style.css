@@ -27,6 +27,7 @@ h1 {
 }
 h2 {
   font-size: 40px;
+  font-weight: 700;
 }
 .orange-color {
   color: orange;
@@ -41,24 +42,32 @@ h2 {
   font-weight: 700;
 }
 
-.about-me{
+.about-me {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   text-align: justify;
   margin-bottom: 200px;
 }
-.about-me img{
-  width:50%;
-  padding-left:120px;
+.about-me img {
+  width: 50%;
+  padding-left: 120px;
   padding-top: 50px;
 }
-.about-text{
+.about-text {
   text-align: center;
   padding-right: 80px;
   padding-top: 90px;
 }
-.about-text p{
+.about-text p {
   font-size: 18px;
   text-align: justify;
   padding-bottom: 60px;
+}
+.my-recipies {
+  text-align: center;
+}
+
+.my-recipies p {
+  font-size: 18px;
+  margin-bottom: 90px;
 }
