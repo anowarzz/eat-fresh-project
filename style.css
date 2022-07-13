@@ -82,7 +82,7 @@ h3 {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
 }
 .recipie-list h3 {
   margin-left: 25px;
@@ -95,13 +95,13 @@ h3 {
   width: 610px;
   height: 562px;
   border-radius: 30px;
-  box-shadow: 5px 5px 10px gray;
+  box-shadow: 0px 0px 10px gray;
 }
 .recipie-two {
   width: 610px;
   height: 562px;
   border-radius: 30px;
-  box-shadow: 5px 5px 10px gray;
+  box-shadow: 0px 0px 10px gray;
 }
 .recipie-one img {
   width: 550px;
@@ -113,3 +113,20 @@ h3 {
   height: 308px;
   margin: 25px;
 }
+.social-network{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: auto;
+  height: 226px;
+  box-shadow: 0px 0px 8px gray;
+  margin:50px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+}
+.social-network h3{
+  font-size: 48px;
+  margin-bottom:0;
+  padding-top:10px;
+}
+
